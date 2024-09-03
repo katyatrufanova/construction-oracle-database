@@ -87,6 +87,8 @@ The conceptual design phase resulted in:
 - A complete schema detailing all entities and relationships
 - Documentation of business rules governing the system
 
+![finalER](https://github.com/user-attachments/assets/a1105fe4-6364-440a-8ca4-53e9f133162d)
+
 ### 3. Logical Design
 
 The logical design phase included:
@@ -95,6 +97,8 @@ The logical design phase included:
 - Analysis of operation frequency and complexity
 - Development of access tables for each operation
 - Redundancy analysis to optimize data storage
+
+![logicalschema](https://github.com/user-attachments/assets/2130a60c-dbf0-4bc1-8aad-c1707451b944)
 
 ### 4. Physical Design
 
@@ -126,6 +130,8 @@ The database schema includes carefully designed tables for:
 6. Print architectural and engineering details for the project with the lowest number of milestones (Bi-monthly)
 
 ## Web Application
+
+![srv](https://github.com/user-attachments/assets/ed0b3399-d737-48b6-9a54-715d0b131cf3)
 
 The system is complemented by a web application interface, allowing users to interact with the database through the following servlets:
 
