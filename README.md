@@ -30,6 +30,7 @@ This system provides robust functionality for project managers, architects, engi
 constructionmasters/
 │
 ├── docs/
+│   ├── presentation.pdf
 │   └── project_report.pdf
 │
 ├── sql/
