@@ -29,9 +29,33 @@ This system provides robust functionality for project managers, architects, engi
 ```
 constructionmasters/
 │
+├── .settings/
+│
+├── build/
+│   └── classes/
+│       ├── HighestCostServlet.class
+│       ├── LowestMilestoneProjectServlet.class
+│       ├── MaterialCostServlet.class
+│       ├── ProjectChallengesServlet.class
+│       ├── ProjectInfoServlet.class
+│       └── ProjectServlet.class
+│
 ├── docs/
 │   ├── presentation.pdf
 │   └── project_report.pdf
+│
+│
+├── Servers/
+│   ├── .settings/
+│   ├── Tomcat v10.0 Server at localhost-config/
+│   │   ├── catalina.policy
+│   │   ├── catalina.properties
+│   │   ├── context.xml
+│   │   ├── server.xml
+│   │   ├── tomcat-users.xml
+│   │   └── web.xml
+│   │
+│   └── .project
 │
 ├── sql/
 │   ├── population_procedures.sql
@@ -41,31 +65,29 @@ constructionmasters/
 │   └── types.sql
 │
 ├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── constructionmasters/
-│   │   │           ├── servlets/
-│   │   │           │   ├── HighestCostServlet.java
-│   │   │           │   ├── LowestMilestoneProjectServlet.java
-│   │   │           │   ├── MaterialCostServlet.java
-│   │   │           │   ├── ProjectChallengesServlet.java
-│   │   │           │   ├── ProjectInfoServlet.java
-│   │   │           │   └── ProjectServlet.java
-│   │   │           ├── models/
-│   │   │           │   ├── Project.java
-│   │   │           │   ├── Material.java
-│   │   │           │   └── ...
-│   │   │           └── utils/
-│   │   │               └── DatabaseConnection.java
-│   │   ├── resources/
-│   │   └── webapp/
-│   │       └── WEB-INF/
-│   │           └── web.xml
-│   └── test/
-│       └── java/
-│           └── com/
-│               └── constructionmasters/
+│   └── main/
+│       ├── java/
+│       │   ├── HighestCostServlet.java
+│       │   ├── LowestMilestoneProjectServlet.java
+│       │   ├── MaterialCostServlet.java
+│       │   ├── ProjectChallengesServlet.java
+│       │   ├── ProjectInfoServlet.java
+│       │   └── ProjectServlet.java
+│       │
+│       └── webapp/
+│           ├── css/
+│           │   └── styles.css
+│           ├── WEB-INF/
+│           │   └── web.xml
+│           ├── highest_cost.html
+│           ├── insert_project.html
+│           ├── lowest_milestone_project.html
+│           ├── project_challenges.html
+│           ├── project_info.html
+│           └── total_material_cost.html
+│
+├── .classpath
+├── .project
 │
 └── README.md
 ```
